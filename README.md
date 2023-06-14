@@ -43,6 +43,6 @@
   <h2 align="center">I created this map for Annabelle to track her work with SEIU. Interact with the map here, and download a high-def image of the map using the image selector option in the display.</h2>
 
   <div class="map-container">
-    <iframe src="https://arcgis.com/apps/instant/basic/index.html?appid=0601617b03794f3289d97be15fad9d89&locale=en-us" frameborder="0" allowfullscreen>iFrames are not supported on this page.</iframe>
+    <iframe src="https://arcgis.com/apps/instant/basic/index.html?appid=0601617b03794f3289d97be15fad9d89&locale=en-us" width="3000" height="3000" frameborder="0" style="border:0" allowfullscreen>iFrames are not supported on this page.</iframe>
   </div>
 </div>
