@@ -14,15 +14,17 @@
   .map-container {
     display: flex;
     justify-content: center;
-    margin: 0 0px;
+    width: calc(100% - 10px); /* subtracting 10px for 5px margins on either side */
+    margin: 0 5px; /* setting 5px margins on either side */
   }
 
   .map-container iframe {
-    width: 1200px;
+    width: 100%;
     height: 1200px;
     border: 0;
   }
 </style>
+
 
 
 <div class="container">
