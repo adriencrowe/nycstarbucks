@@ -30,6 +30,7 @@
 <div class="container">
   <h1 align="center">Map of NYC Starbucks Locations</h1>
   <h2 align="center">I created this map for Annabelle to track her work with SEIU. Interact with the map here, and download a high-def image of the map using the image selector option in the display.</h2>
+  to check for accuracy
 </div>
 
 <div class="map-container">
