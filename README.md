@@ -3,21 +3,22 @@
     margin: 0;
     padding: 0;
   }
-  
+
   .container {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 0 20px;
   }
-  
+
   .map-container {
     width: 100vw;
-    overflow: hidden;
+    overflow-x: hidden;
+    margin-left: -20px;
   }
-  
+
   .map-container iframe {
-    width: 100%;
+    width: 100vw;
     height: 1200px;
     border: 0;
   }
@@ -29,5 +30,4 @@
 </div>
 
 <div class="map-container">
-  <iframe src="https://arcgis.com/apps/instant/basic/index.html?appid=0601617b03794f3289d97be15fad9d89&locale=en-us" frameborder="0" allowfullscreen>iFrames are not supported on this page.</iframe>
-</div>
+ 
