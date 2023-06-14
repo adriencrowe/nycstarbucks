@@ -9,6 +9,8 @@
     flex-direction: column;
     align-items: center;
     padding: 0 20px;
+    width: 100%;
+    box-sizing: border-box; /* Ensures padding doesn't add to total width */
   }
 
   .map-container {
@@ -26,6 +28,10 @@
 
   @media only screen and (max-width: 600px) {
     /* For screens smaller than 600px, you might want to set different styles. This is just an example */
+    .container {
+      padding: 0;
+    }
+
     .map-container {
       margin: 0; /* maybe remove margins on smaller screens */
     }
@@ -35,9 +41,8 @@
 <div class="container">
   <h1 align="center">Map of NYC Starbucks Locations</h1>
   <h2 align="center">I created this map for Annabelle to track her work with SEIU. Interact with the map here, and download a high-def image of the map using the image selector option in the display.</h2>
-  accuracy
-</div>
 
-<div class="map-container">
-  <iframe src="https://arcgis.com/apps/instant/basic/index.html?appid=0601617b03794f3289d97be15fad9d89&locale=en-us" frameborder="0" allowfullscreen>iFrames are not supported on this page.</iframe>
+  <div class="map-container">
+    <iframe src="https://arcgis.com/apps/instant/basic/index.html?appid=0601617b03794f3289d97be15fad9d89&locale=en-us" frameborder="0" allowfullscreen>iFrames are not supported on this page.</iframe>
+  </div>
 </div>
