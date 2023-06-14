@@ -14,12 +14,11 @@
   .map-container {
     display: flex;
     justify-content: center;
-    border: 5px solid;
-    margin: 0 -5px;
+    margin: 0 0px;
   }
 
   .map-container iframe {
-    width: calc(100vw - 10px);
+    width: 1200px;
     height: 1200px;
     border: 0;
   }
