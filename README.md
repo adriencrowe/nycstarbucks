@@ -22,7 +22,7 @@
 
   .map-container iframe {
     width: 100%; /* iframe takes up the full width of the .map-container */
-    height: 1200px; /* To maintain aspect ratio, you can set height to auto, or set to a certain vh value based on your design */
+    height: 100%; /* To maintain aspect ratio, you can set height to auto, or set to a certain vh value based on your design */
     border: 0;
   }
 
