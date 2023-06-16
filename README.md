@@ -13,11 +13,34 @@
     box-sizing: border-box; /* Ensures padding doesn't add to total width */
   }
   
-  /* Media query for screens smaller than 600px */
-  @media (max-width: 600px) {
+  /* Media queries for various iPhone screen sizes */
+  
+  /* iPhone SE (1st generation) */
+  @media (max-width: 320px) {
+    .map-container {
+      width: 320px;
+    }
+  }
+  
+  /* iPhone SE (2nd generation), iPhone 6/6s/7/8 */
+  @media (min-width: 321px) and (max-width: 375px) {
+    .map-container {
+      width: 375px;
+    }
+  }
+  
+  /* iPhone 6 Plus/6s Plus/7 Plus/8 Plus, iPhone X/XS/11 Pro/12 Pro */
+  @media (min-width: 376px) and (max-width: 414px) {
+    .map-container {
+      width: 414px;
+    }
+  }
+  
+  /* iPhone XR/11/12, iPhone XS Max/11 Pro Max/12 Pro Max */
+  @media (min-width: 415px) {
     .map-container {
       width: 100%;
-      height: 100vh;
+      max-width: 828px;
     }
   }
 </style>
