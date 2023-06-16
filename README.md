@@ -22,8 +22,6 @@
 
   iframe {
     /* Set the iframe to fill the map container */
-    display: flex;
-    flex-direction: column;
     width: 100%;
     height: 100%;
   }
@@ -34,6 +32,7 @@
   @media (max-width: 320px) {
     iframe {
       width: 310px;
+      height: 248px;
     }
   }
 
@@ -41,6 +40,7 @@
   @media (min-width: 321px) and (max-width: 375px) {
     iframe {
       width: 365px;
+      height: 292px;
     }
   }
 
@@ -48,6 +48,7 @@
   @media (min-width: 376px) and (max-width: 414px) {
     iframe {
       width: 404px;
+      height: 323px
     }
   }
 
@@ -56,6 +57,7 @@
     iframe {
       width: 818px;
       max-width: 828px;
+      height: 654px;
     }
   }
 </style>
