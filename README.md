@@ -12,47 +12,17 @@
     width: 100%;
     box-sizing: border-box; /* Ensures padding doesn't add to total width */
   }
-  
-  /* Media queries for various iPhone screen sizes */
-  
-  /* iPhone SE (1st generation) */
-  @media (max-width: 320px) {
-    .map-container {
-      width: 310px;
-    }
-  }
-  
-  /* iPhone SE (2nd generation), iPhone 6/6s/7/8 */
-  @media (min-width: 321px) and (max-width: 375px) {
-    .map-container {
-      width: 365px;
-    }
-  }
-  
-  /* iPhone 6 Plus/6s Plus/7 Plus/8 Plus, iPhone X/XS/11 Pro/12 Pro */
-  @media (min-width: 376px) and (max-width: 414px) {
-    .map-container {
-      width: 404px;
-    }
-  }
-  
-  /* iPhone XR/11/12, iPhone XS Max/11 Pro Max/12 Pro Max */
-  @media (min-width: 415px) and (max-width: 828px) {
-    .map-container {
-      width: 818px;
-    }
-  }
-  
+
   .map-container {
     /* Additional styles for the map container */
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 600px;
-    height: 300px;
+    width: 3000px;
+    height: 3000px; /* Adjust as needed */
   }
-  
-  .map-container iframe {
+
+  iframe {
     /* Set the iframe to fill the map container */
     display: flex;
     flex-direction: column;
@@ -60,11 +30,43 @@
     width: 100%;
     height: 100%;
   }
+
+  /* Media queries for various iPhone screen sizes */
+
+  /* iPhone SE (1st generation) */
+  @media (max-width: 320px) {
+    iframe {
+      width: 100%;
+    }
+  }
+
+  /* iPhone SE (2nd generation), iPhone 6/6s/7/8 */
+  @media (min-width: 321px) and (max-width: 375px) {
+    iframe {
+      width: 100%;
+    }
+  }
+
+  /* iPhone 6 Plus/6s Plus/7 Plus/8 Plus, iPhone X/XS/11 Pro/12 Pro */
+  @media (min-width: 376px) and (max-width: 414px) {
+    iframe {
+      width: 100%;
+    }
+  }
+
+  /* iPhone XR/11/12, iPhone XS Max/11 Pro Max/12 Pro Max */
+  @media (min-width: 415px) {
+    iframe {
+      width: 100%;
+      max-width: 828px;
+    }
+  }
 </style>
 
 <div class="container">
   <h1 align="center">Map of NYC Starbucks Locations</h1>
   <h2 align="center">I created this map for Annabelle to track her work with SEIU. Interact with the map here, and download a high-def image of the map using the image selector option in the display.</h2>
+  check
 </div>
 
 <div class="map-container">
