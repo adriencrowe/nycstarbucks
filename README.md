@@ -45,6 +45,8 @@
   
   .map-container {
     /* Additional styles for the map container */
+    display: flex;
+    flex-direction: column;
     align-items: center;
     width: 600px;
     height: 300px;
@@ -52,6 +54,8 @@
   
   .map-container iframe {
     /* Set the iframe to fill the map container */
+    display: flex;
+    flex-direction: column;
     align-items: center;
     width: 100%;
     height: 100%;
