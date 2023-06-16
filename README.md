@@ -60,13 +60,6 @@
       height: 654px;
     }
   }
-
-  @media (min-width: 3000px) {
-    iframe {
-      width: 3000px;
-      height: 2000px;
-    }
-  }
 </style>
 
 <div class="container">
