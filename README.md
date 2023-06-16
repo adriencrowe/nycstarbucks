@@ -49,7 +49,8 @@
     display: flex
     flex-direction: column
     align-items: center
-    height: 100vh; /* Example height, you can adjust as needed */
+    width: 3000px
+    height: 3000px; /* Example height, you can adjust as needed */
   }
 </style>
 
