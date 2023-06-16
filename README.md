@@ -15,8 +15,6 @@
 
   .map-container {
     /* Additional styles for the map container */
-    display: flex;
-    flex-direction: column;
     align-items: center;
     width: 3000px;
     height: 2000px; /* Adjust as needed */
@@ -26,7 +24,6 @@
     /* Set the iframe to fill the map container */
     display: flex;
     flex-direction: column;
-    align-items: center;
     width: 100%;
     height: 100%;
   }
@@ -66,6 +63,7 @@
 <div class="container">
   <h1 align="center">Map of NYC Starbucks Locations</h1>
   <h2 align="center">I created this map for Annabelle to track her work with SEIU. Interact with the map here, and download a high-def image of the map using the image selector option in the display.</h2>
+  check
 </div>
 
 <div class="map-container">
