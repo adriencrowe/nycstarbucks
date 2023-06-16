@@ -12,6 +12,14 @@
     width: 100%;
     box-sizing: border-box; /* Ensures padding doesn't add to total width */
   }
+  
+  /* Media query for screens smaller than 600px */
+  @media (max-width: 600px) {
+    .map-container {
+      width: 100%;
+      height: 100vh;
+    }
+  }
 </style>
 
 <div class="container">
