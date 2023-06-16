@@ -49,8 +49,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100%;
-    height: 100%; /* Adjust as needed */
+    width: 3000px;
+    height: 3000px; /* Adjust as needed */
   }
   
   .map-container iframe {
