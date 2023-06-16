@@ -61,7 +61,7 @@
     }
   }
 
-  @media (min-width: 829px) {
+  @media (min-width: 3000px) {
     iframe {
       width: 3000px;
       height: 2000px;
