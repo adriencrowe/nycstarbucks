@@ -46,8 +46,8 @@
   .map-container {
     /* Additional styles for the map container */
     align-items: center;
-    width: 3000px;
-    height: 3000px;
+    width: 600px;
+    height: 300px;
   }
   
   .map-container iframe {
